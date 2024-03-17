@@ -1,7 +1,7 @@
 import "./listpage.scss";
 
 const ListPage = () => {
-  return <div></div>;
+  return <div>List</div>;
 };
 
 export default ListPage;
