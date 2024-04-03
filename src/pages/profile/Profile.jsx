@@ -9,7 +9,7 @@ const Profile = () => {
 
   const handleLogout = async () => {
     try {
-      const res = apiRequest.post("/auth/logout");
+      await apiRequest.post("/auth/logout");
 
       localStorage.removeItem("user");
 
